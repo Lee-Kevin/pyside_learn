@@ -38,15 +38,15 @@ class ImageViewer(QtGui.QMainWindow):
         self.imageLabel.setSizePolicy(QtGui.QSizePolicy.Ignored,
                 QtGui.QSizePolicy.Ignored)
         self.imageLabel.setScaledContents(True)
-
+        self.imageLabel.setText("Hello World")
         self.scrollArea = QtGui.QScrollArea()
         self.scrollArea.setBackgroundRole(QtGui.QPalette.Dark)
         self.scrollArea.setWidget(self.imageLabel)
         self.setCentralWidget(self.scrollArea)
 
+
         self.createActions()
         self.createMenus()
-
         self.setWindowTitle("Image Viewer")
         self.resize(500, 400)
 

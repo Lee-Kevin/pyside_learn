@@ -32,7 +32,6 @@ def on_release():
     ''' Tell when the button is released. '''
     print('released')
 
-
 # Connect the signals to the slots
 btn.clicked.connect(on_click)
 btn.pressed.connect(on_press)

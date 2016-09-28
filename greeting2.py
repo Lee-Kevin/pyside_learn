@@ -86,7 +86,8 @@ class LayoutExample(QWidget):
         #  全屏显示，首先得到屏幕的尺寸
         self.screen = QDesktopWidget().screenGeometry()
         # 把对话框设置为与屏幕大小一致 全屏显示
-        self.setGeometry(0,0,self.screen.width(),self.screen.height())
+        # self.setGeometry(0,0,self.screen.width(),self.screen.height())
+        self.setGeometry(0,0,1366,880)
     @Slot()
     def show_greeting(self):
         print("button pressed")
