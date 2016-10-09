@@ -4,7 +4,6 @@
 import sys
 from PySide import QtGui
 
-
 class Example(QtGui.QWidget):
     def __init__(self):
         super(Example, self).__init__()
@@ -16,12 +15,12 @@ class Example(QtGui.QWidget):
         cancelButton = QtGui.QPushButton("Cancel")
 
         hbox = QtGui.QHBoxLayout()
-        hbox.addStretch(1)
+        hbox.addStretch(150)
         hbox.addWidget(okButton)
         hbox.addWidget(cancelButton)
 
         vbox = QtGui.QVBoxLayout()
-        vbox.addStretch(1)
+        vbox.addStretch(300)
         vbox.addLayout(hbox)
 
         self.setLayout(vbox)
