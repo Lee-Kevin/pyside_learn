@@ -1,47 +1,32 @@
-# -*- coding: gbk -*-
+#!/usr/bin/python
 # -*- coding: utf-8 -*-
+
+"""
+ZetCode PyQt4 tutorial
+
+In this example, we create a simple
+window in PyQt4.
+
+author: Jan Bodnar
+website: zetcode.com
+last edited: October 2011
+"""
+
 import sys
-import os
-from PySide import QtCore, QtGui
-# Create a Qt application
+from PySide import QtGui
 
-class CameraDisplay(QtGui.QLabel):
-  def __init__(self):
-    super(CameraDisplay, self).__init__()
 
-  def updateFrame(self, image):
-    self.setPixmap(QtGui.QPixmap.fromImage(image))
+def main():
+    app = QtGui.QApplication(sys.argv)
 
-class ControlCenter(QtGui.QWidget):
-  up_camera_signal = QtCore.Signal(QtGui.QImage)
-  up_camera = None
+    w = QtGui.QWidget()
+    w.resize(250, 150)
+    w.move(300, 300)
+    w.setWindowTitle('Simple')
+    w.show()
 
-  def __init__(self):
-    super(ControlCenter, self).__init__()
-    self.up_camera = CameraDisplay()
-    self.up_camera_signal.connect(self.up_camera.updateFrame)
+    sys.exit(app.exec_())
 
-    grid = QtGui.QGridLayout()
-    grid.setSpacing(10)
 
-    grid.addWidget(self.up_camera, 0, 0)
-
-    self.setLayout(grid)
-
-    self.setGeometry(300, 300, 350, 300)
-    self.setWindowTitle('Control Center')
-    self.show()
-
-  def up_camera_callback(self, data):
-    '''This function gets called by an external thread'''
-    try:
-      image = QtGui.QImage(data.data, data.width, data.height, QtGui.QImage.Format_RGB888)
-      self.up_camera_signal.emit(image)
-
-    except Exception, e:
-      print(e)
-
-if __name__ == "__main__":
-  app = QtGui.QApplication(sys.argv)
-  ex = ControlCenter()
-  sys.exit(app.exec_())
+if __name__ == '__main__':
+    main()
