@@ -7,7 +7,7 @@ class Tile:
 		self.value=value
 
 class Game2048(QtGui.QWidget):
-	def __init__(self,parent,width=340,gridSize=4):
+	def __init__(self,parent,width=340,gridSize=2):
 		QtGui.QWidget.__init__(self,parent)
 		self.gameRunning=False
 		self.panelHeight=80
@@ -209,7 +209,6 @@ class Game2048(QtGui.QWidget):
 				else:
 					self.up()
 
-
 	def paintEvent(self,event):
 		painter = QtGui.QPainter(self)
 		painter.setPen(QtCore.Qt.NoPen)
@@ -232,7 +231,9 @@ class Game2048(QtGui.QWidget):
 		painter.drawText(self.hiScoreLabel,str(self.hiScore),QtGui.QTextOption(QtCore.Qt.AlignHCenter|QtCore.Qt.AlignVCenter))
 		painter.setFont(self.font)
 		for gridX in range(0,self.gridSize):
+		# for gridX in range(0,4):
 			for gridY in range(0,self.gridSize):
+			# for gridY in range(0,4):
 				tile = self.tiles[gridX][gridY]
 				if tile is None:
 					painter.setBrush(self.brushes[0])
@@ -250,10 +251,10 @@ class Game2048(QtGui.QWidget):
 
 if __name__=='__main__':
 	app=QtGui.QApplication([])
-	g = Game2048(None,400,5)
+	g = Game2048(None,600,4)
 	g.move(0,0)
 	#g.resize(500,400)
-	g.changeGridSize(3)
+	g.changeGridSize(4)
 	g.setWindowTitle('2048 Game')
 	g.show()
 	app.exec_()

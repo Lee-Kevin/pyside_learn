@@ -39,19 +39,18 @@ class Example(QtGui.QMainWindow):
     def showDialog(self):
         fname = QtGui.QFileDialog.getOpenFileName(self, 'Open file',
                                                   '/home')
-
+        self.textEdit.setText("Hello World")
         f = open(fname, 'r')
 
         with f:
             data = f.read()
-            self.textEdit.setText(data)
-
+            self.textEdit.setText(str(data))
+            self.textEdit.setText("Hello World")
 
 def main():
     app = QtGui.QApplication(sys.argv)
     ex = Example()
     sys.exit(app.exec_())
-
 
 if __name__ == '__main__':
     main()
