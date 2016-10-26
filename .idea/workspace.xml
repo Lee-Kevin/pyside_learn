@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1cbbf3b7-34b9-4260-bf60-f4ae4c5595f9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Widgets/QLineEdit.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2048-pyqt/Game2048.py" afterPath="$PROJECT_DIR$/2048-pyqt/Game2048.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Dialogs/FileDialog.py" afterPath="$PROJECT_DIR$/Dialogs/FileDialog.py" />
     </list>
     <ignored path="14.pyside.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,23 +22,83 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ToggleButton.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Widgets/ToggleButton.py">
+      <file leaf-file-name="SeeedGame.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/2048-pyqt/SeeedGame.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
+            <state relative-caret-position="255">
+              <caret line="270" column="24" selection-start-line="270" selection-start-column="24" selection-end-line="270" selection-end-column="24" />
               <folding>
-                <element signature="e#184#194#0" expanded="true" />
+                <element signature="e#41#72#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QSlider.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Widgets/QSlider.py">
+      <file leaf-file-name="Drawing_text.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drawing/Drawing_text.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="26" column="56" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="56" />
+            <state relative-caret-position="207">
+              <caret line="33" column="27" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="27" />
+              <folding>
+                <element signature="e#126#136#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Drawing_point.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drawing/Drawing_point.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding>
+                <element signature="e#140#158#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Drawing_colours.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drawing/Drawing_colours.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding>
+                <element signature="e#209#219#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Drawing_qpen.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drawing/Drawing_qpen.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="60" column="11" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
+              <folding>
+                <element signature="e#137#147#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Drawing_QBrush.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/drawing/Drawing_QBrush.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+              <folding>
+                <element signature="e#204#214#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Burning_widget.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Custom/Burning_widget.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
               <folding>
                 <element signature="e#120#130#0" expanded="true" />
               </folding>
@@ -49,97 +106,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QProgressBar.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Widgets/QProgressBar.py">
+      <file leaf-file-name="Tetris.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tetris/Tetris.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+            <state relative-caret-position="285">
+              <caret line="312" column="14" selection-start-line="312" selection-start-column="14" selection-end-line="312" selection-end-column="14" />
               <folding>
-                <element signature="e#125#135#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QCalendarWidget.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Widgets/QCalendarWidget.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <element signature="e#128#138#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QPixmap.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Widgets/QPixmap.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
-              <folding>
-                <element signature="e#128#138#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QLineEdit.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Widgets/QLineEdit.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-              <folding>
-                <element signature="e#165#175#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QSpiltter.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Widgets/QSpiltter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding>
-                <element signature="e#131#141#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QComboBox.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Widgets/QComboBox.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding>
-                <element signature="e#131#141#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="drag_drop.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Drag_Drop/drag_drop.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="58" column="10" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
-              <folding>
-                <element signature="e#117#127#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Drag_drop_button.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Drag_Drop/Drag_drop_button.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-              <folding>
-                <element signature="e#200#210#0" expanded="true" />
+                <element signature="e#106#124#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -150,6 +123,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jupyter Notebook" />
         <option value="Python Script" />
       </list>
     </option>
@@ -160,7 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/helloworld.py" />
         <option value="$PROJECT_DIR$/greeting1.py" />
         <option value="$PROJECT_DIR$/movie.py" />
         <option value="$PROJECT_DIR$/signal_slot.py" />
@@ -203,6 +176,15 @@
         <option value="$PROJECT_DIR$/Widgets/QComboBox.py" />
         <option value="$PROJECT_DIR$/Drag_Drop/drag_drop.py" />
         <option value="$PROJECT_DIR$/Drag_Drop/Drag_drop_button.py" />
+        <option value="$PROJECT_DIR$/drawing/Drawing_text.ipynb" />
+        <option value="$PROJECT_DIR$/drawing/Drawing_text.py" />
+        <option value="$PROJECT_DIR$/drawing/Drawing_point.py" />
+        <option value="$PROJECT_DIR$/drawing/Drawing_colours.py" />
+        <option value="$PROJECT_DIR$/drawing/Drawing_qpen.py" />
+        <option value="$PROJECT_DIR$/drawing/Drawing_QBrush.py" />
+        <option value="$PROJECT_DIR$/Custom/Burning_widget.py" />
+        <option value="$PROJECT_DIR$/Tetris/Tetris.py" />
+        <option value="$PROJECT_DIR$/2048-pyqt/SeeedGame.py" />
       </list>
     </option>
   </component>
@@ -237,8 +219,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -257,8 +237,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="14.pyside" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="14.pyside" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Tetris" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="14.pyside" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="14.pyside" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2048-pyqt" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -268,94 +278,96 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\0.WorkingAndStuding\6.PythonLearning\14.pyside" />
       <recent name="E:\0.WorkingAndStuding\6.PythonLearning\14.pyside\Widgets" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\0.WorkingAndStuding\6.PythonLearning\14.pyside\2048-pyqt" />
       <recent name="E:\0.WorkingAndStuding\6.PythonLearning\14.pyside" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Drag_drop_button">
-    <configuration default="false" name="QLineEdit" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.SeeedGame">
+    <configuration default="false" name="Drawing_qpen" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Widgets/image" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/drawing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="14.pyside" />
-      <option name="SCRIPT_NAME" value="E:\0.WorkingAndStuding\6.PythonLearning\14.pyside\Widgets\QLineEdit.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/drawing/Drawing_qpen.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="QSpiltter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Drawing_QBrush" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Widgets" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/drawing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="14.pyside" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Widgets/QSpiltter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/drawing/Drawing_QBrush.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="QComboBox" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Burning_widget" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Widgets" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Custom" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="14.pyside" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Widgets/QComboBox.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Custom/Burning_widget.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="drag_drop" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Tetris" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Drag_Drop" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tetris" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="14.pyside" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Drag_Drop/drag_drop.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tetris/Tetris.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Drag_drop_button" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="SeeedGame" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Drag_Drop" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2048-pyqt" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="14.pyside" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Drag_Drop/Drag_drop_button.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2048-pyqt/SeeedGame.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -495,19 +507,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.QLineEdit" />
-      <item index="1" class="java.lang.String" itemvalue="Python.QSpiltter" />
-      <item index="2" class="java.lang.String" itemvalue="Python.QComboBox" />
-      <item index="3" class="java.lang.String" itemvalue="Python.drag_drop" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Drag_drop_button" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Drawing_qpen" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Drawing_QBrush" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Burning_widget" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Tetris" />
+      <item index="4" class="java.lang.String" itemvalue="Python.SeeedGame" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Drag_drop_button" />
-        <item index="1" class="java.lang.String" itemvalue="Python.drag_drop" />
-        <item index="2" class="java.lang.String" itemvalue="Python.QComboBox" />
-        <item index="3" class="java.lang.String" itemvalue="Python.QSpiltter" />
-        <item index="4" class="java.lang.String" itemvalue="Python.QLineEdit" />
+        <item index="0" class="java.lang.String" itemvalue="Python.SeeedGame" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Tetris" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Burning_widget" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Drawing_QBrush" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Drawing_qpen" />
       </list>
     </recent_temporary>
   </component>
@@ -528,25 +540,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22986823" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24960506" sideWeight="0.37188873" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24012639" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23696682" sideWeight="0.6281113" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39968404" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -585,69 +597,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/helloworld.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../10.tornado/tornado/demos/tcpecho/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../10.tornado/tornado/demos/tcpecho/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helloworld.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/list_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RpiCamera.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="196" column="0" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greeting2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-304">
-          <caret line="72" column="8" selection-start-line="72" selection-start-column="8" selection-end-line="72" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greeting1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1311">
-          <caret line="12" column="32" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/imageviewer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1406">
-          <caret line="103" column="51" selection-start-line="103" selection-start-column="44" selection-end-line="103" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/movie.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -746,13 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2048-pyqt/2048-pyqt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="252" column="19" selection-start-line="252" selection-start-column="19" selection-end-line="252" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2048-pyqt/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -778,9 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="91">
           <caret line="36" column="22" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="22" />
-          <folding>
-            <element signature="e#125#135#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -788,9 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="27" column="31" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="31" />
-          <folding>
-            <element signature="e#181#191#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -798,9 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
           <caret line="37" column="62" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="62" />
-          <folding>
-            <element signature="e#53#63#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -808,9 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-          <folding>
-            <element signature="e#43#53#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -818,37 +748,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
           <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="23" />
-          <folding>
-            <element signature="e#159#169#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Widgets/ToggleButotn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2048-pyqt/Game2048.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="65" column="45" selection-start-line="65" selection-start-column="45" selection-end-line="65" selection-end-column="45" />
-          <folding>
-            <element signature="e#18#49#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Widgets/ToggleButotn.py" />
     <entry file="file://$PROJECT_DIR$/Events_Signals/Event_Sender.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="24" />
-          <folding>
-            <element signature="e#88#98#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -856,7 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
           <caret line="19" column="42" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -864,9 +770,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="24" column="42" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="e#43#53#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -874,9 +777,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-171">
           <caret line="15" column="17" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <element signature="e#124#134#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -884,7 +784,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-23">
           <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -892,7 +791,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1125">
           <caret line="1" column="41" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -900,98 +798,93 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="e#136#146#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Widgets/ToggleButton.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
+        <state relative-caret-position="1121">
           <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
-          <folding>
-            <element signature="e#184#194#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Widgets/QSlider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
+        <state relative-caret-position="475">
           <caret line="26" column="56" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="56" />
-          <folding>
-            <element signature="e#120#130#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Widgets/QProgressBar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
+        <state relative-caret-position="1197">
           <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
-          <folding>
-            <element signature="e#125#135#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Widgets/QCalendarWidget.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
+        <state relative-caret-position="342">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="e#128#138#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Widgets/QPixmap.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
-          <folding>
-            <element signature="e#128#138#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Widgets/QLineEdit.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-          <folding>
-            <element signature="e#165#175#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Widgets/QSpiltter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="e#131#141#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Widgets/QComboBox.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="e#131#141#0" expanded="true" />
+            <element signature="e#128#138#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Drag_Drop/drag_drop.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
+        <state relative-caret-position="1083">
           <caret line="58" column="10" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
           <folding>
-            <element signature="e#117#127#0" expanded="true" />
+            <element signature="e#117#127#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drawing/Drawing_text.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="-1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Widgets/QComboBox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="e#131#141#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Widgets/QSpiltter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="e#131#141#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Widgets/QLineEdit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+          <folding>
+            <element signature="e#165#175#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Widgets/QPixmap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+          <folding>
+            <element signature="e#128#138#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1001,7 +894,103 @@
         <state relative-caret-position="114">
           <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
           <folding>
-            <element signature="e#200#210#0" expanded="true" />
+            <element signature="e#200#210#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2048-pyqt/2048-pyqt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="255" column="23" selection-start-line="255" selection-start-column="23" selection-end-line="255" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2048-pyqt/Game2048.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="247" column="16" selection-start-line="247" selection-start-column="16" selection-end-line="247" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drawing/Drawing_text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="27" />
+          <folding>
+            <element signature="e#126#136#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drawing/Drawing_point.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <element signature="e#140#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drawing/Drawing_colours.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#209#219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drawing/Drawing_qpen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="60" column="11" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
+          <folding>
+            <element signature="e#137#147#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/drawing/Drawing_QBrush.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+          <folding>
+            <element signature="e#204#214#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Custom/Burning_widget.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+          <folding>
+            <element signature="e#120#130#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tetris/Tetris.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="312" column="14" selection-start-line="312" selection-start-column="14" selection-end-line="312" selection-end-column="14" />
+          <folding>
+            <element signature="e#106#124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2048-pyqt/SeeedGame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="270" column="24" selection-start-line="270" selection-start-column="24" selection-end-line="270" selection-end-column="24" />
+          <folding>
+            <element signature="e#41#72#0" expanded="true" />
           </folding>
         </state>
       </provider>
